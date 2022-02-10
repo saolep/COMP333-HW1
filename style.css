@@ -18,6 +18,7 @@ body {
 #disclaimer p {
 }
 
+
 #navbar ul {
     list-style-type: none;
     margin: 0;
@@ -28,14 +29,15 @@ body {
     overflow: hidden;
     height: 70px;
     background-color: black;
-  }
-  
-  #navbar li {
+}
+
+#navbar li {
     float: left;
     height: 100px;
-  }
-  
-  #navbar li a {
+}
+
+
+#navbar li a {
     display: block;
     color: white;
     font-size: x-large;
@@ -45,14 +47,19 @@ body {
     height: 70px;
     line-height: 2;
     text-align: center;
+}
+
+#navbar li img {
+    display: block;
+    padding: 0px 16px;
+    height: 70px;
+    }
     
-  }
-  
-  #navbar li a:hover {
+#navbar li a:hover {
     background-color: rgb(70, 73, 73);
   }
 
 
-  #test {
+#test {
       font-size: 2000%;
   }
