@@ -1,5 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&display=swap');
 
 body {
-    background-color: lightcoral;
+    background-color: lightcyan;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
+
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+    height: 70px;
+    background-color: darkseagreen;
+    border-bottom: 2px solid black;
+  }
+  
+  #navbar li {
+    float: left;
+    height: 100px;
+  }
+  
+  #navbar li a {
+    display: block;
+    color: white;
+    font-size: larger;
+    padding: 14px 16px;
+    text-decoration: none;
+    height: 70px;
+    line-height: 2.4;
+    text-align: center;
+    
+  }
+  
+  #navbar li a:hover {
+    background-color: rgb(129, 182, 129);
+  }
+
+
+  #test {
+      font-size: 2000%;
+  }
