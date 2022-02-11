@@ -8,9 +8,19 @@ body {
 
 h1 {
     margin: 15px;
+    margin-top: 50px;
+}
+
+h2 {
+
+}
+
+.test {
+      font-size: 2000%;
 }
 
 .flex-container {
+    margin-top: 75px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -21,11 +31,13 @@ h1 {
     background-color: slategrey;
     text-align: center;
     margin: 20px;
-    padding: 50px;
+    /* padding: 135px; */
+    width: 500px;
+    max-width: 500px;
+    height: 500px;
     border-color: black;
     border-style: solid;
     border-radius: 10px;
-  
 }
 
 #disclaimer {
@@ -34,9 +46,10 @@ h1 {
     text-align: center;
     opacity: 75%;
     padding: 1px;
-    padding-bottom: 5px;
+    padding-bottom: 25px;
 }
 
+/* Maybe look at nowrap and flex-shrink for this? */
 #navbar ul {
     list-style-type: none;
     margin: 0;
@@ -67,8 +80,4 @@ h1 {
     
 #navbar li a:hover {
     background-color: rgb(70, 73, 73);
-}
-
-#test {
-      font-size: 2000%;
 }
