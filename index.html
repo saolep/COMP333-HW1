@@ -1,9 +1,6 @@
 <!DOCTYPE HTML>
 <html lang="en">
 
-<!-- Iframe is going to be a scrollable section of reviews -->
-<!-- Need to brainstorm possible features -->
-<!-- Throw a table into a possible feature as an option for what it might look like -->
 <!-- Want to find another slot for an image -->
 <!-- Need to throw some <strong> tags in and some more alt text -->
 
@@ -27,26 +24,46 @@
     </div>
 
     <div id="disclaimer">
-        <h2>Disclaimer</h2>
+        <h1>Disclaimer</h1>
         <p>
-            This site was designed and produced for COMP333 at Wesleyan University. The product is a mockup, and not publicly available.
+            This site was designed and produced for <a href="https://sebastianzimmeck.de/class/comp333/comp333.html">COMP333</a> at Wesleyan University. The product is a mockup, and not publicly available.
         </p>
     </div>
 
     <h1>Welcome to MusiScope!</h1>
-
-    <div class="flex-container" id="features"> 
-        <div class="feature">
-            <h2>Rate your favorite songs</h2>
-            <p>For any given song you can rate it on a scale of 1 to 10. As well as </p>
+  
+    <div class="content"> 
+        
+        <div class="flex-container" id="features"> 
+            <div class="feature">
+                <h2>Rate your favorite songs</h2>
+                <p>For any given song you can rate it on a scale of 1 to 10. As well as assign it a more general thumbs up or thumbs down.
+                    If that does not sound like a detailed enough evaluation of a song, you can also write a short 250 character blurb containing your thoughts.</p>
+                </div>
+                <div class="feature">
+                    <h2>Add your own music</h2>
+                    <p>If you cannot find the songs you want to rate on MusiScope already, you can input them into our system yourself. 
+                       You can even add an entire list of songs automatically and then rate individual songs at your leisure.</p>
+                </div>
+                <div class="feature">
+                    <h2>See what your friends have rated</h2>
+                    <p>MusiScope allows you to look across other peoples reviews and accounts. 
+                       That way you can see what your friends and enemies have to say about your favorite songs. 
+                       You can also add friends to be updated on what music they are listening to</p>
+                </div>
+                <div class="feature">
+                    <h2>Share your thoughts on Artists, Albums, or Songs</h2>
+                    <p>If you have thoughts on a new album, artist, or song you can do more than just a simple rating. 
+                       MusiScope lets you write blog posts to share your thoughts with the world in a longer form than what a single review would allow.</p>
+                </div>
+                
         </div>
-        <div class="feature"><h2>Add your own music</h2></div>
-        <div class="feature"><h2>See what your friends have rated</h2></div>
-        <div class="feature"><h2>Share your thoughts on Artists, Albums, or Songs</h2></div>
-
+   
+        <div class="iframe" id="reviews">
+            <iframe src="reviews.html" name="Reviewpage"></iframe>
+        </div>
     </div>
 
-    <iframe src="reviews.html"></iframe>
 
 </body>
 
