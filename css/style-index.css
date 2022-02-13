@@ -9,21 +9,30 @@ body {
 h1 {
     margin: 15px;
     margin-top: 50px;
+    font-size: 40px;
 }
 
 h2 {
+    font-size: 30px;
+}
 
+p {
+    font-size: 25px;
 }
 
 .test {
-      font-size: 2000%;
+    font-size: 2000%;
 }
 
 .flex-container {
-    margin-top: 75px;
+    background-image: url(../images/monster-g327c6af21_1280.png),url(../images/vinyl-ga1f2abbe5_1280.png);
+    background-repeat: no-repeat;
+    background-position: top right,bottom left;
+    background-size: 50%;
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: left;
 }
 
 .feature {
@@ -31,7 +40,6 @@ h2 {
     background-color: slategrey;
     text-align: center;
     margin: 20px;
-    /* padding: 135px; */
     width: 500px;
     max-width: 500px;
     height: 500px;
@@ -49,7 +57,15 @@ h2 {
     padding-bottom: 25px;
 }
 
-/* Maybe look at nowrap and flex-shrink for this? */
+#disclaimer h2 {
+    font-size: 40px;
+}
+
+#monster {
+    float: right;
+    background-image: ;
+}
+
 #navbar ul {
     list-style-type: none;
     margin: 0;
